@@ -1,0 +1,81 @@
+/* html{
+    height: 10vh
+} */
+
+body{
+    background: #5E6472;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0
+}
+
+#page-landing {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16rem;
+}
+
+#page-landing h1 {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+    font-family: arial;
+    font-size: clamp(4rem, 5vw, 8.4rem);
+    line-height: 7rem;
+    margin-bottom: 0;
+}
+
+#page-landing p {
+    text-align: center;
+    color: #D0D0D0;
+    font-family: arial;
+    font-size: 1.1vw;
+}
+
+.ButtonHome {
+    display: flex;
+    justify-content: center;
+    padding-left: 37.5rem;
+}
+
+.ButtonHome a {
+    width: 17rem;
+    height: 5.5rem;
+    border-radius: 1rem;
+    margin-right: 1.6rem;
+
+    font-weight: bold;
+    font-family: arial;
+    font-size: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    text-decoration: none;
+
+    transition: background 220ms ;
+
+    cursor: pointer;
+}
+
+.ButtonHome a.login {
+    background: #57CC99;
+}
+
+.ButtonHome a.register {
+    background: #89C8D2;
+}
+
+.ButtonHome a.login:hover {
+    background: #39B881;
+}
+
+.ButtonHome a.register:hover {
+    background: #65BAC8;
+}
